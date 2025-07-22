@@ -58,3 +58,7 @@ def predict():
 
 #if __name__ == '__main__':
  #   app.run(debug=True)
+# Main entry point
+if __name__ == '__main__':
+    # This is used only when running locally, Render uses gunicorn to serve the app
+    app.run(host='0.0.0.0', port=10000, debug=True)
