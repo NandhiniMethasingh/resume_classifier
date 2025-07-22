@@ -56,5 +56,5 @@ def predict():
 
     return render_template('result.html', prediction=predicted_label[0], filename=filename)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+ #   app.run(debug=True)
